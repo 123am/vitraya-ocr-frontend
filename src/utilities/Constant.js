@@ -1,5 +1,5 @@
-export const base_url="http://api.projectvitrayatechnologies.publicvm.com"
-export const image_base_url="http://api.projectvitrayatechnologies.publicvm.com/"
+export const base_url="https://api.projectvitrayatechnologies.publicvm.com"
+export const image_base_url="https://api.projectvitrayatechnologies.publicvm.com/"
 
 export const Urls={
     login:"/login",

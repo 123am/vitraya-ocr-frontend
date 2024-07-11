@@ -26,6 +26,7 @@ instance.interceptors.response.use(function (data) {
     store.dispatch(commonActions.loadOff())
     return data
 }, function (error) {
+    store.dispatch(commonActions.loadOff())
     return Promise.reject(error);
 });
 
