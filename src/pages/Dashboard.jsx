@@ -88,7 +88,7 @@ const Dashboard = () => {
             </div> */}
         <div className="flex flex-col items-center overflow-scroll">
             {
-                cms_dashboard.length > 0 ? <><div className="grid grid-cols-1 gap-2 w-full p-2">
+                cms_dashboard.length > 0 ? <><div className="grid grid-cols-1 gap-2 w-full  p-2">
 
                     {
                         cms_dashboard.map((itm) => {
