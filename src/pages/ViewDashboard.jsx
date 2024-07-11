@@ -43,7 +43,9 @@ const ViewDashboard = () => {
     console.log(userDetails.userRoleName, "userDetailsuserDetails")
 
     let data = ["{}", "{itm}", "{itm}", "{itm}", "{itm}", "{itm}"]
-
+    useEffect(() => {
+        dispatch(dataActions.dashboard())
+    }, [sort])
     return <>
         {/* <div className="flex flex-row"> */}
         {/* <div className="flex border bg-gray-100 flex-col w-[25vw] items-center">

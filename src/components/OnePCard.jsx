@@ -9,8 +9,8 @@ const OnePCard = ({ itm }) => {
 
     return <div className="flex flex-row h-[94%] m-4 w-full bg-blue-200 rounded-xl p-2">
 
-        <div className="flex flex-col w-full" >
-            <div className="flex flex-col">
+        <div className="flex flex-row w-full" >
+            <div className="flex flex-col mx-2">
                 <h5 className="absolute m-2">OCR Input Image</h5>
                 <img className="w-96 m-2 mt-10" src={image_base_url + itm.coverImage} />
             </div>
